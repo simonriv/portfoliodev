@@ -26,7 +26,7 @@ export function Navigation(){
       <nav className={styles.nav}>
         <div className={styles.iconDiv}>
           <div className={styles.icon}></div>
-          <h2>Simón Rivera</h2>
+          <Link href="/">Simón Rivera</Link>
         </div>
         <ul>
           {links.map(({label,route}) => (

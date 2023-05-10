@@ -16,6 +16,11 @@ const items = [{
   link: 'https://github.com/simonriv',
   label: 'GitHub',
   target: '_blank',
+},{
+  str: 'Agency',
+  link: '#',
+  label: 'Dvloped',
+  target: '',
 }]
 
 export function Footer(){
