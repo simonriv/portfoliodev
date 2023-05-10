@@ -1,5 +1,9 @@
+import { Banner } from "../components/Banner"
+
 export default function ContactPage(){
   return (
-    <h1>Contact</h1>
+    <main>
+      <Banner title="Contáctame."/>
+    </main>
   )
 }

@@ -1,5 +1,9 @@
+import { Banner } from "../components/Banner"
+
 export default function AboutPage(){
   return (
-    <h1>About</h1>
+    <main>
+      <Banner title="Hola."/>
+    </main>
   )
 }

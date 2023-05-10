@@ -1,0 +1,13 @@
+.bannerPage {
+  width:100%;
+  min-height:300px;
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerPage h1 {
+  font-size: 7rem;
+}

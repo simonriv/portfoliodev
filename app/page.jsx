@@ -1,5 +1,6 @@
 import Link from "next/link"
 import styles from "../styles/pages/home.module.css"
+import { Works } from "./components/Works"
 
 export default function HomePage () {
   return (
@@ -9,20 +10,7 @@ export default function HomePage () {
         <h1>Soy desarrollador de software.</h1>
         <p>Soy desarrollador front-end y back-end y fundador de Dvloped,<br/> agencia de software en Colombia.</p>
       </section>
-      <section className={styles.lastWorksContainer}>
-        <h2 className={styles.titleLastWorksContainer}>Últimos Trabajos</h2>
-        <section className={styles.lastWorsGrid}>
-          <div className={styles.itemWorksGrid}>
-            <Link href="#">
-              <h3>The title for item work</h3>
-              <p>lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </p>
-            </Link>
-          </div>
-        </section>
-        <section className={styles.btnSeeMore}>
-          <Link href="/work" >Ver más trabajos {'>'}</Link>
-        </section>
-      </section>
+      <Works/>
     </main>  
   )
 }

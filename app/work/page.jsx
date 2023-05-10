@@ -1,5 +1,9 @@
+import { Banner } from "../components/Banner"
+
 export default function WorkPage(){
   return (
-    <h1>Work</h1>
+    <main>
+      <Banner title="Trabajos."/>
+    </main>
   )
 }
