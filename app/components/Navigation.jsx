@@ -14,7 +14,7 @@ const links = [{
   label: 'Contacto',
   route: '/contact',
 },{
-  label: 'Sobre mi',
+  label: 'Sobre mí',
   route: '/about',
 }
 ]
