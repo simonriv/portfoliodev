@@ -31,3 +31,24 @@
 .nivelContainer .active {
   background-color: var(--color--secondary);
 }
+
+@media (max-width:600px){
+  .nivelContainer {
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    margin:0;
+  }
+
+  .nivelContainer .init {
+    border-top-left-radius: 1rem;
+    border-top-right-radius:1rem;
+    border-bottom-left-radius: 0;
+  }
+
+  .nivelContainer .end {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+}

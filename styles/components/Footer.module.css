@@ -32,3 +32,22 @@
 .footerItem a:hover {
   text-decoration: none;
 }
+
+@media (max-width: 700px){
+  .footer {
+    min-height: 110px;
+    height: auto;
+  }
+
+  .footer .footerContainer {
+    width:100%;
+    flex-direction:column;
+    margin: 20px 0;
+    gap:0;
+    text-align:center;
+  }
+
+  .footerContainer .footerItem {
+    width:100%;
+  }
+}

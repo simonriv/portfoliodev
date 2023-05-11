@@ -1,6 +1,6 @@
 .descContact {
   width: 60%;
-  height: 200px;
+  min-height: 200px;
   font-size: 1.8rem;
   margin: 0 auto;
   padding:0;
@@ -16,4 +16,10 @@
 .descContact a:hover {
   background-color: var(--color--primary);
   color: var(--color--text);
+}
+
+@media (max-width:700px){
+  .descContact {
+    width:100%;
+  }
 }

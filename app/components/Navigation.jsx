@@ -28,6 +28,8 @@ export function Navigation(){
           <div className={styles.icon}></div>
           <Link href="/">Simón Rivera</Link>
         </div>
+        <input type="checkbox" id="check"/>
+        <label htmlFor="check" className={styles.btnMenu}>-</label>
         <ul>
           {links.map(({label,route}) => (
             <li key={route} className={currentPage === route ? styles.active : null}>

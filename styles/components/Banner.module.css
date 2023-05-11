@@ -6,8 +6,21 @@
   display:flex;
   justify-content: center;
   align-items: center;
+  overflow-wrap:break-word;
 }
 
 .bannerPage h1 {
   font-size: 7rem;
+}
+
+@media (max-width:700px){
+  .bannerPage h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width:500px){
+  .bannerPage h1 {
+    font-size: 4rem;
+  }
 }
