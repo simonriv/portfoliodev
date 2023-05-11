@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta charSet={metadata.charset}/>
         <meta name="description" content={metadata.description} />
+        <link rel="icon" type="image/jpg" sizes="32x32" href="/photo_author.jpg"/>
       </head>
       <body>
         <Navigation/>

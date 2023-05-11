@@ -1,0 +1,19 @@
+.descContact {
+  width: 60%;
+  height: 200px;
+  font-size: 1.8rem;
+  margin: 0 auto;
+  padding:0;
+  text-align: center;
+  overflow:hidden;
+}
+
+.descContact span {
+  background-color: var(--color--primary);
+}
+
+.descContact a {color:var(--color--primary);}
+.descContact a:hover {
+  background-color: var(--color--primary);
+  color: var(--color--text);
+}

@@ -10,7 +10,7 @@ export default function HomePage () {
         <h1>Soy desarrollador de software.</h1>
         <p>Soy desarrollador front-end y back-end y fundador de Dvloped,<br/> agencia de software en Colombia.</p>
       </section>
-      <Works/>
+      <Works title="Últimos Trabajos" seeMore={true} cant={8}/>
     </main>  
   )
 }

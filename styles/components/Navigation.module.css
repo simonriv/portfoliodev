@@ -35,6 +35,8 @@
   padding:0;
   background-color:var(--color--secondary);
   border-radius: 50%;
+  background-image: url('../../public/photo_author.jpg');
+  background-size: cover;
 }
 
 .iconDiv a {
