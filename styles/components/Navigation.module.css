@@ -51,6 +51,11 @@
   color: var(--color--primary);
 }
 
+.iconDiv span {
+  color: var(--color--secondary);
+  font-size: 1.2em;
+}
+
 .nav ul {
   margin:0;
   padding:0;
